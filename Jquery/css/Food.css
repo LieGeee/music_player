@@ -1,0 +1,276 @@
+
+ .user {
+	 position: fixed;
+ 	position: relative;
+ 	left: 800px;
+ }
+.head ul li a {
+ 	text-decoration: none;
+ 	color: aliceblue
+ }
+
+ .head {
+ 	position: fixed;
+ 	top: 0;
+ 	width: 100%;
+ 	height: 10%;
+	min-width: 100%;
+	min-height: 10%;
+
+ 	/* margin: 0 auto; */
+
+ }
+ .head ul {
+ 	width: 100%;
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding-left: 10%;
+ 	overflow: hidden;
+ 	background-color: rgb(102, 131, 176);
+ 	float: left;
+	box-shadow: 1px 10px 10px #888888;
+ }
+
+  .head ul li:hover {
+ 	background-color: rgb(41, 81, 144);
+	color: aliceblue;
+ }
+
+ .head ul li {
+ 	display: block;
+ 	color: white;
+ 	text-align: center;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+ 	float: left;
+	font-family: 宋体;
+ }
+ /* 上面这部分是导航栏 */
+ .fl{
+	 width: 10%;
+
+ }
+ .l{
+	 	display: flex;
+ 	background-color: rgb(250, 199, 145);
+ 	width: 10%;
+ 	height: 1140px;
+    margin: 42px 0 0 0;
+	position: fixed;
+ }
+
+.l ul{
+	List-style-type: none;
+	white-space:nowrap;
+}
+.l ul li{
+	display: block;
+	margin: 20px;
+	display: flex;
+
+}
+
+.l ul li :hover{
+		background-color: rgb(255, 255, 255);
+		color: #000;
+}
+.l ul li a{
+	text-decoration: none;
+	color: aliceblue;
+
+}
+
+
+ .m {
+ 	background-color:rgb(232, 232, 232);
+ 	width: 80%;
+ 	height: 1150px;
+	 margin: 42px 0px;
+	position: fixed;
+	right:10.5%;
+ }
+ .fm{
+	 width: 80%;
+	 right:10.5%;
+ }
+.r{
+	position: fixed;
+	display: flex;
+		background-color: rgb(250, 199, 145);
+		width: 10.5%;
+		height: 1140px;
+		right:0%;
+		margin: 42px 0 0 0;
+
+}
+ .kuang {
+   margin: 50px 30px 0px 30px;
+   border-radius: 30px;
+ 	background-color:rgb(240, 240, 240);
+	width: 95%;
+	height: 65%;
+	float: left;
+	box-shadow: 10px 10px 5px #888888;
+	display: flex;
+   flex-direction: column;
+ }
+.kuang2{
+  margin: 5px 30px 0px 30px;
+  border-radius: 30px;
+  background-color:rgb(250, 250, 250);
+  width: 90%;
+  height: 5%;
+  float: left;
+  box-shadow: 5px 5px 5px #888888;
+  display: flex;
+  min-width: 90%;
+  /*visibility: hidden;*/
+	 }
+.kuang2:hover
+{
+  background-color: #add8e6;
+}
+ .kuang3{
+   margin: 5px 5px 5px 20px;
+   border-radius:7px;
+   background-color:rgb(255, 140, 0);
+   width: 50%;
+   height: 70%;
+   float: left;
+   /*box-shadow: 2px 2px 2px #888888;*/
+   display: flex;
+   justify-content: center;
+ }
+ .kuang3 button {
+   margin: auto 0;          /* 将按钮放置在顶部，不居中 */
+   align-self: flex-start;  /* 将按钮移至容器顶部 */
+ }
+
+ .kuang3 span {
+   margin: auto;            /* 让 span 居中 (默认已通过 flex 居中，此行可省略) */
+ }
+ .kuang4{
+   justify-content: center; /* 水平居中 */
+   margin: 5px 5px 5px 20px;
+   border-radius:7px;
+   background-color:rgb(25, 140, 123);
+   width: 30%;
+   height: 70%;
+   float: left;
+   /*box-shadow: 2px 2px 2px #888888;*/
+   display: flex;
+ }
+.content{
+	display: flex;
+}
+img{
+	border-radius: 30px;
+	width: 175px;
+	height: 175px;
+}
+.tpbj{
+	margin:10px;
+}
+.dian{
+	List-style-type: none
+
+}
+.m a {
+	color: black;
+}
+.dian li:nth-child(n+2){
+	color: #888888;
+	/* 从列表第二行开始 */
+}
+
+.dian li:nth-child(3)
+{
+	font-size: 13px;
+	display: block;
+	margin:10px 60px 10px 0px ;
+	float: left;
+	display: flex;
+}
+.dian li:nth-child(4){
+	text-align: right;
+	margin:10px 10px ;
+	display: block;
+	display: flex;
+}
+.guige{
+	background-color:orange;
+	border-radius: 30px;
+}
+
+.under
+{
+  position: fixed;
+  display: flex;
+  background-color: rgb(152, 152, 152);
+  width: 100%;
+  height: 5%;
+  bottom: 0;
+  margin: 0 0 0 0;
+  visibility: hidden;
+}
+.list
+{
+
+}
+ .circle-button {
+   margin: 0px 0px 0px 20px;
+   line-height: 1px;
+   width: 25px;    /* 设置一个固定的宽度 */
+   height: 25px;
+   /*border: 2px solid #000; !* 边框 *!*/
+   border-radius: 100%; /* 设置为50%创建圆形 */
+   /*padding: 10px; !* 内边距，根据需要调整大小 *!*/
+   background: #fff; /* 背景色 */
+   cursor: pointer; /* 鼠标悬停时显示指针手势 */
+   outline: none; /* 点击时不显示轮廓 */
+   transition: background 0.3s, border 0.3s; /* 平滑过渡效果 */
+ }
+
+ .circle-buttonmid {
+   margin: 0px 0px 0px 20px;
+   line-height: 1px;
+   width: 30px;    /* 设置一个固定的宽度 */
+   height: 30px;
+   /*border: 2px solid #000; !* 边框 *!*/
+   border-radius: 100%; /* 设置为50%创建圆形 */
+   /*padding: 10px; !* 内边距，根据需要调整大小 *!*/
+   background: #fff; /* 背景色 */
+   cursor: pointer; /* 鼠标悬停时显示指针手势 */
+   outline: none; /* 点击时不显示轮廓 */
+   transition: background 0.3s, border 0.3s; /* 平滑过渡效果 */
+ }
+ .circle-buttonlr{
+   margin: 3px 0px 0px 20px;
+   line-height: 1px;
+   width: 25px;    /* 设置一个固定的宽度 */
+   height: 25px;
+   /*border: 2px solid #000; !* 边框 *!*/
+   border-radius: 100%; /* 设置为50%创建圆形 */
+   padding: 0px 0px 0px 0px;
+   background: #fff; /* 背景色 */
+   cursor: pointer; /* 鼠标悬停时显示指针手势 */
+   outline: none; /* 点击时不显示轮廓 */
+   transition: background 0.3s, border 0.3s; /* 平滑过渡效果 */
+ }
+ .circle-button:hover {
+   background: #000; /* 鼠标悬停时的背景色 */
+   color: #fff; /* 鼠标悬停时的文字颜色 */
+ }
+ .circle-buttonmid:hover {
+   background: #000; /* 鼠标悬停时的背景色 */
+   color: #fff; /* 鼠标悬停时的文字颜色 */
+ }
+ .circle-buttonlr:hover {
+   background: #000; /* 鼠标悬停时的背景色 */
+   color: #fff; /* 鼠标悬停时的文字颜色 */
+ }
+.audio1 {
+width: 100%;
+height: 100%;
+
+}
